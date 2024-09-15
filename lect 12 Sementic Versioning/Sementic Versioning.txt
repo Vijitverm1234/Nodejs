@@ -1,0 +1,7 @@
+for example
+"lodash":"^4.17.11"  (major.minor.patch)
+patch update
+minor update : have minor changes
+major update : have major and considerable changes
+^ : minor or major updates
+~ : only want patch updates 
