@@ -1,0 +1,63 @@
+{
+    "class": "10A",
+    "students": [
+      {
+        "id": "S001",
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 15,
+        "gender": "Male",
+        "grades": {
+          "math": 85,
+          "science": 92,
+          "english": 78
+        },
+        "address": {
+          "street": "123 Elm Street",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62704"
+        },
+        "email": "john.doe@example.com"
+      },
+      {
+        "id": "S002",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "age": 14,
+        "gender": "Female",
+        "grades": {
+          "math": 90,
+          "science": 88,
+          "english": 85
+        },
+        "address": {
+          "street": "456 Oak Avenue",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62705"
+        },
+        "email": "jane.smith@example.com"
+      },
+      {
+        "id": "S003",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "age": 15,
+        "gender": "Female",
+        "grades": {
+          "math": 82,
+          "science": 80,
+          "english": 90
+        },
+        "address": {
+          "street": "789 Pine Road",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62706"
+        },
+        "email": "emily.johnson@example.com"
+      }
+    ]
+  }
+  

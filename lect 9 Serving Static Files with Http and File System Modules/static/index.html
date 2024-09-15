@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Basic reset for paragraph */
+/* Basic reset for paragraph */
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Enhanced stylish paragraph */
+.styled-paragraph {
+  font-family: 'Roboto', sans-serif; /* Modern, clean font family */
+  font-size: 1.3em; /* Larger text */
+  color: #333; /* Dark grey text color */
+  background: linear-gradient(135deg, #ffffff, #e0e0e0); /* Diagonal gradient background */
+  border-left: 8px solid #ff6f61; /* Bold coral border on the left */
+  padding: 20px 30px; /* Generous padding */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+  margin: 20px 0; /* Margin to separate from other elements */
+  position: relative; /* For absolute positioning of pseudo-element */
+  overflow: hidden; /* Ensures pseudo-element doesn’t overflow */
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect */
+.styled-paragraph:hover {
+  background: linear-gradient(135deg, #ff6f61, #ff3f34); /* Gradient changes on hover */
+  color: #fff; /* White text color on hover */
+  border-left-color: #ff3f34; /* Darker border on hover */
+  transform: scale(1.05) rotate(-1deg); /* Slight zoom and rotation effect */
+}
+
+/* Decorative pseudo-element */
+.styled-paragraph::before {
+  content: "✨"; /* Decorative icon */
+  font-size: 3em; /* Larger icon size */
+  position: absolute; /* Positioning relative to parent */
+  top: -20px; /* Position above the paragraph */
+  right: -20px; /* Position to the right of the paragraph */
+  opacity: 0.4; /* Slightly transparent */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+  animation: float 3s ease-in-out infinite; /* Floating animation */
+}
+
+/* Hover effect for pseudo-element */
+.styled-paragraph:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  transform: scale(1.2); /* Slightly larger on hover */
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+
+</style>
+<body>
+   <p class="styled-paragraph"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam officia enim iure id! Exercitationem obcaecati
+    nostrum dignissimos nesciunt? Tenetur in itaque quaerat suscipit repellendus tempora voluptatibus accusantium
+    recusandae, provident possimus alias! Quia nobis voluptatibus omnis? Quis et nisi officiis corrupti, deserunt
+    explicabo voluptas, at quaerat ipsam natus minima fugiat nesciunt, dicta asperiores quo nam repudiandae voluptatum
+    fuga quae? Voluptatum tenetur molestiae minima, aut voluptatem velit iure accusamus sunt itaque consequuntur nemo
+    cumque perferendis, a temporibus vero aperiam, magnam atque quasi. Sunt, eum voluptatem in officiis fuga nobis
+    veniam rem voluptatum dolores ut harum quos excepturi blanditiis vel necessitatibus dignissimos inventore.
+</body>
+
+</html>
