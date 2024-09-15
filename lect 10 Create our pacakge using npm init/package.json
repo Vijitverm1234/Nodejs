@@ -1,0 +1,11 @@
+{
+  "name": "lect-10-create-our-pacakge-using-npm-init",
+  "version": "1.0.0",
+  "description": "About learning the npm stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vijit Verma",
+  "license": "ISC"
+}
